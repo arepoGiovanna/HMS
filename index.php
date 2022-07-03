@@ -4,8 +4,8 @@
         <!-- insert icon tag here... -->
     </header>
     <body>
-        <h1>Hello World!</h1>
-        <h2>Hello World2!</h2>
+        <h1>Hello welcome to our Homework Management System!</h1>
+        
     </body>
     <footer>
         <!-- insert here... -->
