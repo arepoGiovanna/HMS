@@ -1,7 +1,7 @@
 ## Homework Management System
 * A project just for fun. ;D
 
-* This homework management system is to help students to simply manage their homework.
+* This homework management system is simply to help students to manage their homework.
 
 ## Contact
 ### Facebook
