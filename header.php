@@ -8,17 +8,13 @@
         <title>HMS</title>
         <!-- insert icon tag here... -->
 
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
 
-        <?php include"header.php" ?>
     </header>
 
-    <body>
-        <h1>Hello welcome to our Homework Management System!</h1>
-        <a href="registerPage.php">REGISTER HERE!</a>
-        <a href="loginPage.php">LOGIN HERE!</a>
-    </body>
-
-    <footer>
-        <?php include"footer.php" ?>
-    </footer>
 </html>
