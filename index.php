@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html>
     <header>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./resources/mainIcon.png">
-        <link rel="stylesheet" href="./css/mainStyle.css">
         <title>HMS</title>
-        <!-- insert icon tag here... -->
-
-
-        <?php include"header.php" ?>
+        <?php include"./header.php" ?>
     </header>
 
     <body>
@@ -19,6 +12,6 @@
     </body>
 
     <footer>
-        <?php include"footer.php" ?>
+        <?php include"./footer.php" ?>
     </footer>
 </html>

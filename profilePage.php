@@ -1,16 +1,16 @@
-
-
 <!DOCTYPE html>
 <html>
     <header>
-        <title></title>
+        <title>Profile Page</title>
 
-        <?php include"header.php" ?>
+        <?php include "./header.php" ?>
     </header>
-    <body>
-        this is profile pprofile page
-    </body>
-    <footer>
 
+    <body>
+        This is profile page!
+    </body>
+
+    <footer>
+        <?php include "./footer.php" ?>
     </footer>
 </html>
