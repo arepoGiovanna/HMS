@@ -1,3 +1,7 @@
+<?php
+    include "./databases/database.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <header>
