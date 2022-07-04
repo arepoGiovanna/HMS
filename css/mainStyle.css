@@ -1,3 +1,21 @@
 body {
     text-align: center;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+header {
+    margin-top: 1%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
+    width: 100%;
+    /* border: 1px solid black; */
 }
