@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T16:16:59.491Z" agent="5.0 (Windows)" etag="7rPFvQnmFmqSISOjMo_u" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T16:17:19.890Z" agent="5.0 (Windows)" etag="aRMKs8UsKqfEKMHcJs8u" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Landing Page/ index.php">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -572,13 +572,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2s_PmOouCguQIv3lI1NS-1" value="&lt;font color=&quot;#FF0000&quot;&gt;CHANGE ACCORDING TO&lt;br&gt;YOUR NEEDS!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="960" y="160" width="170" height="40" as="geometry" />
+          <mxGeometry x="1155" y="110" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="0CopC7_X-Prk5ptdzGfp-4" target="0CopC7_X-Prk5ptdzGfp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-4" value="drag and drop functionality from scrollable&lt;br&gt; list into the &quot;add buddy&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="970" y="400" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0CopC7_X-Prk5ptdzGfp-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="0CopC7_X-Prk5ptdzGfp-8" target="0CopC7_X-Prk5ptdzGfp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0CopC7_X-Prk5ptdzGfp-8" value="to cancel the &lt;br&gt;drag and drop buddy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="210" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
