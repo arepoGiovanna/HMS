@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T17:16:40.785Z" agent="5.0 (Windows)" etag="tzuzWk7t-x4iiw2ph132" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T17:17:07.475Z" agent="5.0 (Windows)" etag="1W_HEtJPeBXiYUI42JJu" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Landing Page/ index.php">
     <mxGraphModel dx="1460" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -326,11 +326,23 @@
             <mxPoint x="800" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_eVg3Bk_lE2NBZ-rsW_P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#FF0019;" edge="1" parent="O-d3W0VZ979Py5r2oGuJ-1" source="_eVg3Bk_lE2NBZ-rsW_P-0" target="YQU23XIjxr1RoC1Wf4AY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eVg3Bk_lE2NBZ-rsW_P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF0019;" edge="1" parent="O-d3W0VZ979Py5r2oGuJ-1" source="_eVg3Bk_lE2NBZ-rsW_P-0" target="YQU23XIjxr1RoC1Wf4AY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eVg3Bk_lE2NBZ-rsW_P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#FF0019;" edge="1" parent="O-d3W0VZ979Py5r2oGuJ-1" source="_eVg3Bk_lE2NBZ-rsW_P-0" target="YQU23XIjxr1RoC1Wf4AY-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eVg3Bk_lE2NBZ-rsW_P-0" value="user can choose" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="O-d3W0VZ979Py5r2oGuJ-1">
+          <mxGeometry x="1100" y="435" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="aaQnIi5f6zbmcyq9Mcba" name="Homework Page">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
