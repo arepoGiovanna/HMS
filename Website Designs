@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T15:33:00.653Z" agent="5.0 (Windows)" etag="YIneL8_ku36JnIcUGo65" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T15:33:15.531Z" agent="5.0 (Windows)" etag="Kg2Ns9hgjps-fFI4Rsfs" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Dashboard">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,6 +205,12 @@
         </mxCell>
         <mxCell id="3oBgjBksSqbStqc6VpgD-7" value="onClick, it will slide to left, &lt;br&gt;showing only one DIV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1005" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3oBgjBksSqbStqc6VpgD-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.116;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172.80000000000018" y="650" as="sourcePoint" />
+            <mxPoint x="170" y="88.20000000000005" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
