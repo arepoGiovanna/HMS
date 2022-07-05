@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T16:48:26.870Z" agent="5.0 (Windows)" etag="7k9YOp8TiKdgaE_kseZf" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T16:50:12.837Z" agent="5.0 (Windows)" etag="D1heEzVGWHU9il_G_qOu" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Landing Page/ index.php">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -647,7 +647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uw9cgX-OKUXbBLwDti4z" name="Bookmarks &amp; References Page">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -674,6 +674,15 @@
             <mxPoint x="722.8" y="600" as="sourcePoint" />
             <mxPoint x="720" y="38.2" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="At7RP2e6oI35FvjnzLU0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="30fKjR8GpGcF5UCvplUF-2">
+          <mxGeometry x="90" y="40" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="At7RP2e6oI35FvjnzLU0-4" value="Bookmarks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="30fKjR8GpGcF5UCvplUF-2">
+          <mxGeometry x="250" y="40" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="At7RP2e6oI35FvjnzLU0-5" value="References" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="30fKjR8GpGcF5UCvplUF-2">
+          <mxGeometry x="250" y="170" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="30fKjR8GpGcF5UCvplUF-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.116;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="30fKjR8GpGcF5UCvplUF-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -717,6 +726,14 @@
         </mxCell>
         <mxCell id="j0SJRZYmIk4fVfLZvuZ5-1" value="&lt;font color=&quot;#FF0000&quot;&gt;CHANGE ACCORDING TO&lt;br&gt;YOUR NEEDS!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="960" y="160" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="At7RP2e6oI35FvjnzLU0-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#FF0D3D;" edge="1" parent="1" source="At7RP2e6oI35FvjnzLU0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="At7RP2e6oI35FvjnzLU0-6" value="These are just the side navigation bar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="280" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
