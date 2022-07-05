@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <header>
+        <title>Register</title>
         <?php include "./header.php" ?>
     </header>
 
     <body>
         <form method="POST" action="./processors/registerProcessor.php">
-            <div class="container">
+            <div class="container" style="width:80%; margin:auto;">
                 <h1>Register</h1>
                 <p>Please fill in this form to create an account.</p>
                 <hr>

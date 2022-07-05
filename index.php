@@ -10,9 +10,13 @@
     </header>
 
     <body>
-        <h1>Hello welcome to our Homework Management System!</h1>
-        <a href="registerPage.php">REGISTER HERE!</a>
-        <a href="loginPage.php">LOGIN HERE!</a>
+        <h1>Dashboard</h1>
+        <div><a href="./registerPage.php">REGISTER</a></div>
+        <div><a href="./loginPage.php">LOGIN</a></div>
+        <div><a href="./homeworkPage.php">HOMEWORK</a></div>
+        <div><a href="./calendarPage.php">CALENDAR</a></div>
+        <div><a href="./buddyPage.php">BUDDY</a></div>
+        <div><a href="./bMark_RefPage.php">BOOKMARKS & REFERENCES</a></div>
     </body>
 
     <footer>

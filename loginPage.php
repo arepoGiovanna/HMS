@@ -1,13 +1,13 @@
 <!DOCTYPE html>    
 <html>    
     <header>    
-        <title>Login Page</title>
+        <title>Login</title>
 
         <?php include "./header.php"; ?>
     </header>
 
     <body>    
-        <h2>Login Page</h2><br>    
+        <h1>Login</h1><br>    
         <div class="login">    
         <form id="login" method="POST" action="./processors/loginProcessor.php">    
             <label><b>User Name     
@@ -20,7 +20,7 @@
             </label>    
             <input type="Password" name="Pass" id="Pass" placeholder="Password">    
             <br><br>    
-            <input type="submit" name="log" id="log" value="Log In Here">       
+            <input type="submit" name="log" id="log" value="Login">       
             <br><br>    
             <input type="checkbox" id="check">    
             <span>Remember me</span>    
