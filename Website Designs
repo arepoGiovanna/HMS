@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T16:46:29.095Z" agent="5.0 (Windows)" etag="-vkrrppFr1q2-hMTv6Av" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T16:46:41.002Z" agent="5.0 (Windows)" etag="Mezparh79oVFkPRiwG1B" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Landing Page/ index.php">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -542,10 +542,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-1" value="Add buddy" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Cl_FPpo-1pdDWLy2Z-CV-2">
-          <mxGeometry x="350" y="150" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-2" value="Cancel" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Cl_FPpo-1pdDWLy2Z-CV-2">
-          <mxGeometry x="660" y="110" width="50" height="50" as="geometry" />
+          <mxGeometry x="660" y="100" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.757;entryY=0.927;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="Cl_FPpo-1pdDWLy2Z-CV-2" source="0CopC7_X-Prk5ptdzGfp-3" target="0CopC7_X-Prk5ptdzGfp-1">
           <mxGeometry relative="1" as="geometry" />
@@ -556,7 +556,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0CopC7_X-Prk5ptdzGfp-3" value="&amp;lt;&amp;lt;scrollable list of buddies&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Cl_FPpo-1pdDWLy2Z-CV-2">
-          <mxGeometry x="150" y="280" width="510" height="310" as="geometry" />
+          <mxGeometry x="150" y="260" width="510" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Cl_FPpo-1pdDWLy2Z-CV-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.116;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Cl_FPpo-1pdDWLy2Z-CV-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
