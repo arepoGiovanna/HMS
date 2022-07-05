@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T17:14:22.457Z" agent="5.0 (Windows)" etag="HqhhadafYTV7SwNHzSbc" version="20.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-05T17:15:40.069Z" agent="5.0 (Windows)" etag="U8tQJYI7OK7UAWw6K0bt" version="20.0.4" type="github" pages="8">
   <diagram id="0FlvHYBuGlKQ7H1AxxbI" name="Landing Page/ index.php">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -671,7 +671,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uw9cgX-OKUXbBLwDti4z" name="Bookmarks &amp; References Page">
-    <mxGraphModel dx="3821" dy="1465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2675" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -831,6 +831,9 @@
         <mxCell id="BRx_i4rpCCK_dOSY9eUj-10" value="logo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="UR5WYN8Qu89hWMPf_17g-2">
           <mxGeometry x="110" y="40" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="xtiy3P9_N3ok7V_9qdTX-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Choose an action...&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FF2189;" vertex="1" parent="UR5WYN8Qu89hWMPf_17g-2">
+          <mxGeometry x="360" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="UR5WYN8Qu89hWMPf_17g-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#FF0019;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="370" as="sourcePoint" />
@@ -870,7 +873,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rqWbvJAIfKSh0MKHXFGz" name="Profile Page">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
