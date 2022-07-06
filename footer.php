@@ -1,4 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <center><small>©HMS</small></center>
+    <div class="footerContainer">
+        <center><small>©HMS</small></center>
+    </div>
 </html>
