@@ -1,34 +1,45 @@
 html {
-    border: 3px dotted cadetblue;
-    min-height: 100vh;
-    margin: 0;
+    /* border: 3px dotted cadetblue; */
+    height: 100%;
+    min-width: 100%;
+    margin: auto;
     padding: 0;
-    overflow: auto; /* edit here */
+    overflow: hidden; /* edit here */
 }
 
 body {
-    position: relative;
-    text-align: center;
-    border: 1px solid red; 
-    min-height: 100vh;
+    position: absolute;
+    /* text-align: center; */
+    /* border: 5px solid red;  */
+    height: 100%;
+    min-width: 100%;
     margin: 0;
     padding: 0;
+    /* background: rgb(2,0,36); */
+    background-image: linear-gradient(to top, #ffffff, #f8faff, #ebf7ff, #daf5ff, #caf3f9, #bdf4f5, #b2f4ee, #aaf4e3, #9cf7e0, #8efadd, #80fdd8, #71ffd3);    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
-    border: 2px double palegreen;
-    margin-top: 2%;
+    /* border: 2px double palegreen; */
+    /* margin-top: 2%; */
+    position: absolute;
+    min-width: 100%;
+    margin-top: 3vh;
 }
 
 .headerContainer {
-    border: 2px double purple;
+    /* border: 2px double purple; */
     min-height: 50px;
 }
 
 .headerContainer .headerLogo {
     position: relative;
-    /* display: inline; */
+    display: inline;
     float: left;
+    margin-top: 5px;
+    margin-left: 2vh;
 }
 
 .headerContainer .headerItem {
@@ -36,6 +47,11 @@ header {
     float: right;
     right: 0;
     line-height: 50px;
+    margin-right: 2vh;
+}
+
+.headerContainer .headerItem a {
+    margin: 0px 13px 0px 13px;
 }
 
 footer {
@@ -44,24 +60,118 @@ footer {
     left: 0;
     margin-bottom: 1%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0;
 }
 
 .footerContainer {
-    border: 1px dashed cyan;
+    /* border: 1px dashed cyan; */
     margin: 0;
     padding: 0;
 }
 
 .mainContainer {
-    border: 2px solid chocolate;
+    /* border: 2px solid chocolate; */
+    min-height: 100%;
 }
 
 .firstDiv {
-    border: 1px solid magenta; 
+    /* border: 3px solid magenta;  */
     width: 80%;
-    height: 84vh;
     margin: auto;
     overflow-y: visible;
+    min-height: 100vh;
+}
+
+.secondDiv {
+    /* border: 4px dotted mediumpurple; */
+    /* margin-top: 12vh; */
+    width: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#mainLogo {
+    position: absolute;
+    /* border: 2px solid darkorange; */
+    /* width: 150px; */
+    /* height: 130px; */
+    /* border-radius: 50%; */
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 73px;
+}
+
+/* #theLogo {
+    border: 2px dotted black;
+} */
+
+#theLogo:hover {
+    cursor: default;
+}
+
+.logoBgDiv {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    /* border: 2px dotted blue; */
+    margin: auto;
+}
+
+.leftSide {
+    border: 2px dashed blue;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-left: 50%;
+    width: 145px;
+    height: 170px;
+    margin: auto;
+    /* margin-top: 10%; */
+    transition: transform .2s;
+}
+
+.rightSide {
+    /* display: flex; */
+    border: 2px dashed rgb(238, 130, 238);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 145px;
+    height: 170px;
+    margin: auto;
+    /* margin-top: 10%; */
+    transition: transform .2s;
+}
+
+.rightSide:hover {
+    background-color: rgb(228, 196, 228);
+    transform: scale(1.5);
+}
+
+.leftSide:hover {
+    background-color: lightblue;
+    transform: scale(1.5);
+}
+
+.logoContainer {
+    display: flex;
+    margin: auto;
+    /* border: 2px double crimson; */
+}
+
+h1 p { /* belongs to index.php */
+    display: inline-flex;
+    transition: transform .2s;
+    /* margin: 0;
+    padding: 0; */
+}
+
+h1 p:hover {
+    color: brown;
+    transform: scale(1.2);
+    cursor: default;
+}
+
+.logoContainer a { /* belongs to index.php */
+    text-decoration: none;
 }

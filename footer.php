@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
     <div class="footerContainer">
-        <center><small>©HMS</small></center>
+        <center><small>©Lista</small></center>
     </div>
 </html>
