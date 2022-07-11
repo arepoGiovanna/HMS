@@ -247,7 +247,7 @@ h1 p:hover {
 }
 
 .loginFormDiv, .registerFormDiv {
-    border: 3px dotted grey;
+    border: 3px dotted blueviolet;
     min-height: 700px;
     text-align: center;
 }

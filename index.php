@@ -9,7 +9,7 @@
 
         <?php include "./header.php"; ?>
 
-        <script src="./processors/navBarProcessor.js"></script>
+        <script src="./processors/jsProcessor.js"></script>
     </header>    
 
     <script>
@@ -24,13 +24,12 @@
                     <h1><p>W</p><p>e</p><p>l</p><p>c</p><p>o</p><p>m</p><p>e</p> <p>t</p><p>o</p> <p>L</p><p>i</p><p>s</p><p>t</p><p>a</p><p>!</p></h1> <!-- aka landing page -->
                     <div class="logoBgDiv">
                         <div class="logoContainer">
-                            <a href="./loginRegisterPage.php"><div class="leftSide" title="Already registered? Click to login.">Login</div></a>
-                            <a href="./loginRegisterPage.php"><div class="rightSide" title="New here? Click to register.">Register</div></a>
+                            <a href="./loginPage.php"><div class="leftSide" id="loginBtn" title="Already registered? Click to login." onclick="clickedBtn('login')">Login</div></a>
+                            <a href="./registerPage.php"><div class="rightSide" id="regBtn" title="New here? Click to register." onclick="clickedBtn('register')">Register</div></a>
                             <div id="mainLogo">
                                 <a href="./index.php"><img id="theLogo" src="./resources/mainIcon.png" alt="website logo" width="150px" heigh="150px"></a>
                             </div>
                         </div>
-                        
                     </div>
                     <!-- <div><a href="./registerPage.php">REGISTER</a></div>
                     <div><a href="./loginPage.php">LOGIN</a></div>
