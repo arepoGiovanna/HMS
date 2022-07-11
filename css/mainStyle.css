@@ -4,7 +4,7 @@ html {
     min-width: 100%;
     margin: auto;
     padding: 0;
-    overflow: hidden; /* edit here */
+    overflow: visible; /* edit here */
 }
 
 body {
@@ -81,6 +81,7 @@ footer {
     margin: auto;
     overflow-y: visible;
     min-height: 100vh;
+    z-index: -1;
 }
 
 .secondDiv {
@@ -89,7 +90,7 @@ footer {
     width: auto;
     margin: auto;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 20%;
 }
 
 #mainLogo {
@@ -174,4 +175,83 @@ h1 p:hover {
 
 .logoContainer a { /* belongs to index.php */
     text-decoration: none;
+}
+
+.areaContainer {
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    height: 150px;
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+}
+
+.loginArea, .registerArea {
+    flex: 1;
+    max-width: 50%;
+    min-height: 100%; /* to fit the parent box */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: transform .2s;
+    line-height: 130px;
+    /* z-index: 0; */
+}
+
+.loginArea:hover, .registerArea:hover {
+    /* opacity: 0.2; */
+    transform: scale(1.2);
+    cursor: default;
+}
+
+.loginArea {
+    border: 3px dotted red;
+}
+
+.registerArea {
+    border: 3px dotted blue;
+}
+
+.mainContentDiv { /* used by loginRegisterPage.php */
+    position: absolute;
+    border: 3px double rgb(255, 0, 0);
+    min-height: 100%;
+    min-width: 80%;
+    z-index: 0; /* to place it on top of "firstDiv" */
+    display: block;
+}
+
+.loginRegContainer {
+    border: 2px solid rgb(223, 248, 0);
+    position: absolute;    /* margin: 30%; */
+    /* margin-top: 150px; */
+    min-width: 100%;
+    min-height: 95%;
+}
+
+.loginContainer {
+    border: 2px solid rgb(255, 0, 106);
+}
+
+.regContainer {
+    border: 2px solid rgb(247, 0, 255);
+}
+
+.loginContainer:hover, .regContainer:hover {
+    background-color: #71ffd3;
+}
+
+#loginRegCarousel {
+    margin-top: 160px;
+
+}
+
+.loginFormDiv, .registerFormDiv {
+    border: 3px dotted grey;
+    min-height: 700px;
+    text-align: center;
+}
+
+.carousel-indicators {
+    position: absolute;
 }
