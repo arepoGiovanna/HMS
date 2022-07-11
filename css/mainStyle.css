@@ -90,7 +90,11 @@ footer {
     width: auto;
     margin: auto;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 20%;
+=======
+    margin-top: 25%;
+>>>>>>> 7ac8e4516450f30fa4cf716325b4187dc8d05c1e
 }
 
 #mainLogo {
@@ -176,6 +180,7 @@ h1 p:hover {
 .logoContainer a { /* belongs to index.php */
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 .areaContainer {
     border: 2px solid black;
@@ -255,3 +260,5 @@ h1 p:hover {
 .carousel-indicators {
     position: absolute;
 }
+=======
+>>>>>>> 7ac8e4516450f30fa4cf716325b4187dc8d05c1e
