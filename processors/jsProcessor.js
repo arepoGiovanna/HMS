@@ -72,13 +72,6 @@ function showHidePassReg() {
 
         theBtn.innerHTML = "Show";
     }
-
-//     if (passRep.type === "password") {
-//         passRep.type = "text";
-//     } else {
-//         passRep.type = "password";
-//     }
-// }
 }
 
 

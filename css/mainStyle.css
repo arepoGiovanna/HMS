@@ -2,15 +2,15 @@ html {
     /* border: 3px dotted cadetblue; */
     height: 100%;
     min-width: 100%;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    overflow: scroll; /* edit here */
+    overflow: hidden; /* edit here */
 }
 
 body {
     position: absolute;
     /* text-align: center; */
-    /* border: 5px solid red;  */
+    /* border: 3px dotted red;  */
     height: 100%;
     min-width: 100%;
     margin: 0;
@@ -22,11 +22,10 @@ body {
 }
 
 header {
-    /* border: 2px double palegreen; */
+    /* border: 5px dotted darkgoldenrod; */
     /* margin-top: 2%; */
     position: absolute;
     min-width: 100%;
-    margin-top: 3vh;
 }
 
 .headerContainer {
@@ -39,7 +38,7 @@ header {
     display: inline;
     float: left;
     margin-top: 5px;
-    margin-left: 2vh;
+    margin-left: 38.4px; /* equiv -> 2vh */
 }
 
 .headerContainer .headerItem {
@@ -47,7 +46,7 @@ header {
     float: right;
     right: 0;
     line-height: 50px;
-    margin-right: 2vh;
+    margin-right: 38.4px;
 }
 
 .headerContainer .headerItem a {
@@ -55,32 +54,42 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-bottom: 1%;
+    /* border: 3px dotted green; */
+    /* position: absolute; */
+    /* bottom: 0; */
     width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* margin-bottom: 1%; */
+    /* width: 100%; */
     /* border: 1px solid black; */
-    padding: 0;
+    /* padding: 0; */
 }
 
 .footerContainer {
-    /* border: 1px dashed cyan; */
-    margin: 0;
-    padding: 0;
+    position: absolute;
+    /* border: 3px dashed red; */
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    /* margin: 0; */
+    /* padding: 0; */
+    z-index: -2;
 }
 
 .mainContainer {
-    /* border: 2px solid chocolate; */
-    min-height: 100%;
+    /* position: relative; */
+    /* border: 3px solid chocolate; */
+    /* min-height: 100%; */
 }
 
 .firstDiv {
     /* border: 3px solid magenta;  */
     width: 80%;
     margin: auto;
-    overflow-y: visible;
-    min-height: 100vh;
+    /* overflow-y: visible; */
+    /* min-height: 100vh; */
     z-index: -1;
 }
 
@@ -201,7 +210,7 @@ h1 p:hover {
 .loginArea:hover, .registerArea:hover {
     /* opacity: 0.2; */
     transform: scale(1.2);
-    cursor: default;
+    cursor: pointer;
 }
 
 .loginArea {
@@ -230,7 +239,7 @@ h1 p:hover {
 }
 
 .loginContainer {
-    /* border: 2px solid rgb(255, 0, 106); */
+    /* border: 4px solid rgb(104, 44, 215); */
 }
 
 .regContainer {
@@ -238,10 +247,11 @@ h1 p:hover {
 }
 
 .loginContainer:hover, .regContainer:hover {
-    background-color: #71ffd3;
+    /* background-color: #71ffd3; */
 }
 
 #loginRegCarousel {
+    /* border: 2px solid #71ffd3; */
     margin-top: 160px;
 }
 
@@ -266,4 +276,9 @@ h1 p:hover {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+.carousel-inner {
+    /* border: 2px dashed blue; */
+    position: relative;
 }
