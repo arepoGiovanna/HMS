@@ -27,7 +27,7 @@ function clickedBtn(theBtn) {
         console.log("setItem: " + theBtn);
     }
     else {
-        console.log("Error on clicking button!");
+        console.log("Error on clicking button on index!");
     }
 }
 
@@ -37,4 +37,65 @@ function getClickedBtn() {
     console.log("getItem: " + getLocalBtn);
 
     return getLocalBtn;
+}
+
+function showHidePass() {
+    var pass1 = document.getElementById("psw1");
+    var pass2 = document.getElementById("psw2");
+    var passRep = document.getElementById("psw-repeat");
+    var theBtn = document.getElementById("showHideBtn");
+
+    if (pass1.type === "password") {
+        pass1.type = "text";
+        theBtn.innerHTML = "Hide";
+    } else {
+        pass1.type = "password";
+        theBtn.innerHTML = "Show";
+    }
+
+    if (pass2.type === "password") {
+        pass2.type = "text";
+        theBtn.innerHTML = "Hide";
+    } else {
+        pass2.type = "password";
+        theBtn.innerHTML = "Show";
+    }
+
+    if (passRep.type === "password") {
+        passRep.type = "text";
+    } else {
+        passRep.type = "password";
+    }
+}
+
+function areaBtnClicked(theEle) {
+    let theEleIdObj = document.getElementById(theEle);
+    let loginArea = document.getElementById("loginAreaId");
+    let regArea = document.getElementById("regAreaId");
+
+    // console.log("theEle: " + theEle);
+
+    // alert("theEleIdObj: " + theEleIdObj.id);
+
+    if(theEleIdObj.id == "loginAreaId") {
+        // change color for login
+        loginArea.style.opacity = "1.0";
+        loginArea.style.backgroundColor = "rgb(249, 225, 126)";
+        
+        // change color for unchosen area
+        regArea.style.opacity = "0.4";
+        regArea.style.backgroundColor = "rgb(191, 191, 191)";
+    }
+    else if(theEleIdObj.id == "regAreaId") {
+        // change color for register
+        regArea.style.opacity = "1.0";
+        regArea.style.backgroundColor = "rgb(249, 225, 126)";
+
+        // change color for unchosen area
+        loginArea.style.opacity = "0.4";
+        loginArea.style.backgroundColor = "rgb(191, 191, 191)";
+    }
+    else {
+        console.log("Error on clicking area!");
+    }
 }
