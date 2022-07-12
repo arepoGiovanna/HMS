@@ -13,7 +13,7 @@
             <div class="col-md-8">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <button class="btn btn-outline-secondary" id="showHideBtn" type="button" onclick="showHidePass()">Show</button>
+                        <button class="btn btn-outline-secondary" id="showHideBtn1" type="button" onclick="showHidePassLogin()">Show</button>
                     </div>
                     <input class="form-control text-center" type="password" name="password" id="psw1" placeholder="Enter password">
                 </div>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="col-12 mt-3">
-                Forgot <a href="./processors/forgotPassProcessor.php">Password</a>
+                Forgot <a href="./processors/forgotPassProcessor.php">password</a>
             </div>
         </div>
     </form>

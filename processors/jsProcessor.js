@@ -39,34 +39,48 @@ function getClickedBtn() {
     return getLocalBtn;
 }
 
-function showHidePass() {
+function showHidePassLogin() {
     var pass1 = document.getElementById("psw1");
-    var pass2 = document.getElementById("psw2");
-    var passRep = document.getElementById("psw-repeat");
-    var theBtn = document.getElementById("showHideBtn");
+    var theBtn = document.getElementById("showHideBtn1");
 
     if (pass1.type === "password") {
         pass1.type = "text";
+
         theBtn.innerHTML = "Hide";
-    } else {
+    }
+    else {
         pass1.type = "password";
-        theBtn.innerHTML = "Show";
-    }
 
-    if (pass2.type === "password") {
-        pass2.type = "text";
-        theBtn.innerHTML = "Hide";
-    } else {
-        pass2.type = "password";
         theBtn.innerHTML = "Show";
-    }
-
-    if (passRep.type === "password") {
-        passRep.type = "text";
-    } else {
-        passRep.type = "password";
     }
 }
+
+function showHidePassReg() {
+    var pass2 = document.getElementById("psw2");
+    var passRep = document.getElementById("psw-repeat");
+    var theBtn = document.getElementById("showHideBtn2");
+
+    if (pass2.type === "password" && passRep.type === "password") {
+        pass2.type = "text";
+        passRep.type = "text";
+
+        theBtn.innerHTML = "Hide";
+    }
+    else {
+        pass2.type = "password";
+        passRep.type = "password";
+
+        theBtn.innerHTML = "Show";
+    }
+
+//     if (passRep.type === "password") {
+//         passRep.type = "text";
+//     } else {
+//         passRep.type = "password";
+//     }
+// }
+}
+
 
 function areaBtnClicked(theEle) {
     let theEleIdObj = document.getElementById(theEle);
