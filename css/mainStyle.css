@@ -1,18 +1,18 @@
 html {
-    /* border: 3px dotted cadetblue; */
+    /* border: 3px double cadetblue; */
     height: 100%;
-    min-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow-y: hidden;
 }
 
 body {
-    position: absolute;
+    position: relative;
     /* text-align: center; */
-    /* border: 3px dotted red;  */
+    /* border: 3px solid red;  */
     height: 100%;
-    min-width: 100%;
+    /* min-width: 100%; */
     margin: 0;
     padding: 0;
     /* background: rgb(2,0,36); */
@@ -26,13 +26,13 @@ body {
 header {
     /* border: 5px dotted darkgoldenrod; */
     /* margin-top: 2%; */
-    position: absolute;
-    min-width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .headerContainer {
     /* border: 2px double purple; */
-    min-height: 50px;
+    height: 50px;
 }
 
 .headerContainer .headerLogo {
@@ -57,8 +57,8 @@ header {
 
 footer {
     /* border: 3px dotted green; */
-    /* position: absolute; */
-    /* bottom: 0; */
+    position: relative;
+    bottom: 0;
     width: 100%;
     /* position: absolute; */
     /* bottom: 0; */
@@ -67,12 +67,13 @@ footer {
     /* width: 100%; */
     /* border: 1px solid black; */
     /* padding: 0; */
+    z-index: -2;
 }
 
 .footerContainer {
-    position: absolute;
+    position: relative;
     /* border: 3px dashed red; */
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
     margin: auto;
     /* margin: 0; */
@@ -81,9 +82,13 @@ footer {
 }
 
 .mainContainer {
-    /* position: relative; */
-    /* border: 3px solid chocolate; */
+    position: relative;
+    border: 2px solid #fed8b1;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #fed8b1;
     /* min-height: 100%; */
+    height: 100%;
 }
 
 .firstDiv {
@@ -93,6 +98,7 @@ footer {
     /* overflow-y: visible; */
     /* min-height: 100vh; */
     z-index: -1;
+    /* height: 100%; */
 }
 
 .secondDiv {
@@ -201,7 +207,7 @@ h1 p:hover {
 .loginArea, .registerArea {
     flex: 1;
     max-width: 50%;
-    min-height: 100%; /* to fit the parent box */
+    height: 100%; /* to fit the parent box */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: transform .2s;
@@ -226,18 +232,18 @@ h1 p:hover {
 .mainContentDiv { /* used by loginRegisterPage.php */
     position: absolute;
     /* border: 3px double rgb(255, 0, 0); */
-    min-height: 100%;
-    min-width: 80%;
+    /* height: 100%; */
+    width: 80%;
     z-index: 0; /* to place it on top of "firstDiv" */
     display: block;
 }
 
 .loginRegContainer {
     /* border: 2px solid rgb(223, 248, 0); */
-    position: absolute;    /* margin: 30%; */
+    position: relative;    /* margin: 30%; */
     /* margin-top: 150px; */
-    min-width: 100%;
-    min-height: 95%;
+    width: 100%;
+    /* height: 95%; */
     /* overflow-y: scroll; */
 }
 
@@ -254,14 +260,14 @@ h1 p:hover {
 }
 
 #loginRegCarousel {
-    /* border: 2px solid #71ffd3; */
+    /* border: 2px solid #7f71ff; */
     margin-top: 160px;
 }
 
 .loginFormDiv, .registerFormDiv {
-    /* border: 3px dotted blueviolet; */
+    /* border: 3px groove red; */
     /* min-height: 700px; */
-    min-height: 700px;
+    /* height: 700px; */
     text-align: center;
 }
 
