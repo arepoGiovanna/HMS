@@ -4,7 +4,7 @@ html {
     min-width: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* edit here */
+    overflow-y: hidden;
 }
 
 body {
@@ -19,6 +19,8 @@ body {
     background-image: linear-gradient(to top, #ffffff, #f8faff, #ebf7ff, #daf5ff, #caf3f9, #bdf4f5, #b2f4ee, #aaf4e3, #9cf7e0, #8efadd, #80fdd8, #71ffd3);    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: scroll; /* edit here */
+
 }
 
 header {
@@ -236,6 +238,7 @@ h1 p:hover {
     /* margin-top: 150px; */
     min-width: 100%;
     min-height: 95%;
+    /* overflow-y: scroll; */
 }
 
 .loginContainer {
@@ -260,6 +263,10 @@ h1 p:hover {
     /* min-height: 700px; */
     min-height: 700px;
     text-align: center;
+}
+
+.registerFormDiv {
+    /* overflow-y: scroll; */
 }
 
 #login {
