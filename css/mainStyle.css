@@ -4,7 +4,7 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     background-image: linear-gradient(to top, #ffffff, #f8faff, #ebf7ff, #daf5ff, #caf3f9, #bdf4f5, #b2f4ee, #aaf4e3, #9cf7e0, #8efadd, #80fdd8, #71ffd3);    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll; /* edit here */
+    /*overflow-y: scroll; edit here */
 
 }
 
@@ -68,10 +68,12 @@ footer {
     /* border: 1px solid black; */
     /* padding: 0; */
     z-index: -2;
+    
+    /* margin-top: 100vh; */
 }
 
 .footerContainer {
-    position: relative;
+    position: inherit;
     /* border: 3px dashed red; */
     /* bottom: 0; */
     width: 100%;
@@ -79,6 +81,8 @@ footer {
     /* margin: 0; */
     /* padding: 0; */
     z-index: -2;
+    
+    /* margin-top: 100vh; */
 }
 
 .mainContainer {
@@ -87,8 +91,11 @@ footer {
     border-left: none;
     border-right: none;
     border-top: 1px solid #fed8b1;
+    border-bottom: none;
     /* min-height: 100%; */
-    height: 100%;
+    height: 100%; /*hereeeeeeeeeeeeeeeeeeeeeeeee*/
+    min-height: 80%;
+    overflow-y: scroll;
 }
 
 .firstDiv {
