@@ -14,7 +14,7 @@
 
     <script>
         // testing();
-        displayNavBar(false, "mainHeader");
+        displayNavBar(true, "mainHeader");
     </script>
 
     <body>
@@ -41,12 +41,20 @@
             </div>
         </div>
 
+        <!-- <div class="staticC">
+            <div style="width: 80px; height: 80px; background-color:aquamarine; position:fixed; bottom: 30px; right: 0; margin-right:30px;"></div>
+        </div> -->
+
+        <footer>
+            <?php include "./footer.php"; ?>
+        </footer>
+
         <!-- for bootstrap uses -->
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
 
-    <footer>
-        <?php include "./footer.php"; ?>
-    </footer>
+    <!-- <footer>
+        <?php //include "./footer.php"; ?>
+    </footer> -->
 </html>

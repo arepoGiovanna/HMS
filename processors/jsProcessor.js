@@ -3,8 +3,8 @@
 
 // global variables
 
-function displayNavBar(flag, domObj) {
-    let navBarObj = document.getElementById(domObj);
+function displayNavBar(flag, domObjId) {
+    let navBarObj = document.getElementById(domObjId);
 
     if(flag == false) {
         return navBarObj.style.display = "none";
@@ -73,7 +73,6 @@ function showHidePassReg() {
         theBtn.innerHTML = "Show";
     }
 }
-
 
 function areaBtnClicked(theEle) {
     let theEleIdObj = document.getElementById(theEle);

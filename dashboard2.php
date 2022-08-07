@@ -8,8 +8,6 @@
         <title>Lista</title>
         <?php include"./header.php"; ?>
 
-        <script src="./processors/jsProcessor.js"></script>
-
         <style>
             .hide {
                 display: none;
@@ -36,16 +34,19 @@
             }
         </style>
     </header>
-    
-    <script>
-        // testing();
-        displayNavBar(false, "mainHeader");
-    </script>
 
     <body>
         <div class="mainContainer">
             <div class="firstDiv">
                 <div class="secondDiv">
+                    <h1>Dashboard</h1>
+                    <div class="box" id="targetBox">
+                        <!-- <img class="bookImg" src="./resources/mainIcon.png" alt="book" draggable="true" width="100px" height="80px"></img> -->
+                        <div class="square" id="theItem" draggable="true"></div>
+                    </div>
+                    <div class="box" id="targetBox"></div>
+                    <div class="box" id="targetBox"></div>
+                    <div class="box" id="targetBox"></div>
                 </div>
             </div>
         </div>
